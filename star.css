@@ -1,0 +1,137 @@
+body{
+    position: relative;
+    margin:0px;
+    padding: 0px;
+    font-family: Arial, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック";
+    font-size: 10px;
+    font-weight: normal;
+}
+ul, li{
+    list-style: none;
+    margin: 0;
+}
+
+/*header*/
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #d61c38 left bottom no-repeat;
+    width: 120px;
+    height: 100%;
+}
+header .header-first{
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    margin:28px 25px 24px;
+}
+.header-list{
+    position: relative;
+    margin: 0;
+}
+.header-list ul{
+    position: absolute;
+    top:0;
+    left: 5px;
+    padding: 0;
+}
+.header-list li{
+    display: list-item;
+    padding: 20px 0 20px 25px;
+    color: #fff;
+    font-size: 140%;
+    line-height: 15px;
+}
+.starbucks_image{
+    width: 80px;
+    height: 80px;
+    border-radius: 300px;
+    
+}
+.header-list .service{
+    font-size: 9px;
+    margin: 0;
+    font-weight: lighter;
+}
+
+
+
+
+/*wrapper*/
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding:0 10px 0 120px;
+    background-color: #f8f8f7;
+}
+.wrapper .first{
+    height: 100%;
+    width: 50%;
+    
+}
+
+.first img{
+   width: 100%;
+}
+
+.wrapper .second{
+    height: 100%;
+    width: 50%;
+    
+}
+.content-area{
+    width: 463px;
+}
+.left-list li{
+    width:260px;
+    height: 170px;
+    background-color: #fff;
+    margin: 0 5px 10px;
+}
+.left-list img{
+    width: 100px;
+    height: 120px;
+}
+.boxcontainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: relative;
+    font-size: 11px;
+    
+}
+.boxcontainer .text-contents{
+   width: 50%;
+   word-wrap: break-word;
+   color: #3d3935;
+   line-height: 1.73;
+}
+
+.boxcontainer .text-contents p{
+  
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    margin-bottom: 0;
+}
+.notification{
+    display: flex;
+    justify-content: space-between;
+    color: #c6893f;
+    font-size: 12px;
+    width: auto;
+    padding: 20px 0;
+}
+.noti-area p{
+    display: inline-block;
+    padding: 0 6px;
+    font-size: 13px;
+    line-height: 1.6;
+    border-radius: 4px;
+    border: solid 1px #c6893f;
+}
+.noti-text{
+    margin-left: 10px;
+}

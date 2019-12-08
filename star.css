@@ -6,6 +6,16 @@ body{
     font-size: 10px;
     font-weight: normal;
 }
+
+html,body,h1,h2,div,p{
+    padding: 0;
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    outline: 0;
+    border: none;
+    background: none;
+}
 ul, li{
     list-style: none;
     margin: 0;
@@ -55,7 +65,11 @@ header .header-first{
     font-weight: lighter;
 }
 
+/*whole*/
 
+.whole-content{
+    display: flex;
+}
 
 
 /*wrapper*/
@@ -65,10 +79,11 @@ header .header-first{
     justify-content: space-between;
     padding:0 10px 0 120px;
     background-color: #f8f8f7;
+    word-break: normal;
 }
 .wrapper .first{
     height: 100%;
-    width: 50%;
+    width: 55%;
     
 }
 
@@ -78,11 +93,12 @@ header .header-first{
 
 .wrapper .second{
     height: 100%;
-    width: 50%;
+    width: 45%;
     
 }
 .content-area{
     width: 463px;
+    color: #3d3935;
 }
 .left-list li{
     width:260px;
@@ -104,13 +120,10 @@ header .header-first{
 }
 .boxcontainer .text-contents{
    width: 50%;
-   word-wrap: break-word;
-   color: #3d3935;
    line-height: 1.73;
 }
 
 .boxcontainer .text-contents p{
-  
     position: absolute;
     right: 10px;
     bottom: 10px;
@@ -120,7 +133,7 @@ header .header-first{
     display: flex;
     justify-content: space-between;
     color: #c6893f;
-    font-size: 12px;
+    font-size: 11px;
     width: auto;
     padding: 20px 0;
 }
@@ -134,4 +147,97 @@ header .header-first{
 }
 .noti-text{
     margin-left: 10px;
+}
+.listsarea{
+    margin-left: 13px;
+    display: flex;
+}
+.listsarea ul{
+    padding: 0;
+}
+
+.left-list .brewing{
+    margin: 0 0 2px 5px;
+    font-size: 13px;
+    line-height: 1.6;
+    width: 100%;
+}
+
+/*--right list */
+
+.right-list  img{
+    margin-right: 10px;
+}
+.right-list .pick{
+    font-size: 13px;
+}
+.right-list li{
+    background-color: #fff;
+    margin: 0 5px 10px;
+}
+.first-list{
+    width:168px;
+    height: 100px;
+}
+.first-list .boxcontainer .image img{
+    height: 40px;
+    width: 40px;
+}
+.right-list ul{
+    margin-top: 7px;
+}
+.first-list .boxcontainer p{
+    line-height: 1.73;
+}
+.second-list{
+    width:168px;
+    height: 60px;
+}
+.second-list .boxcontainer .image img{
+    height: 40px;
+    width: 40px;
+}
+.third-list{
+    width:168px;
+    height: 77px;
+}
+.third-list .boxcontainer .image img{
+    height: 40px;
+    width: 40px;
+}
+.forth-list{
+    width:168px;
+    height: 96px;
+}
+.forth-list .boxcontainer .image img{
+    height: 40px;
+    width: 40px;
+}
+/* footer*/
+footer{
+    width: 130px;
+}
+.footer-list ul{
+    margin-top: 30px;
+    margin-left: 0;
+    padding: 0;
+    
+}
+.footer-list li{
+    margin: 0 0 20px 22px;
+    display: flex;
+}
+.footer-list li .span-text{
+    line-height:12px;
+    font-size: 11px;
+    color: #3d3935;
+
+}
+.footer-list i{
+    padding-right: 13px;
+}
+.footer-list ul li .icon-img{
+    width: 31px;
+    padding: 0;
+    margin-right: 8px;
 }
